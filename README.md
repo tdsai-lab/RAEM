@@ -1,10 +1,7 @@
 # Rank-Aware Differentially Private Release of Listwise Preferences for LLM Alignment
 
 This is the official code repository for the paper **“Rank-Aware
-Differentially Private Release of Listwise Preferences for LLM Alignment.”**
-The paper was accepted at **NeurIPS 2026**. This repository provides the
-implementation and experiment pipeline for reproducing the **RAEM+KTO results
-in the main table**.
+Differentially Private Release of Listwise Preferences for LLM Alignment,”** which was accepted at **NeurIPS 2026**. This repository provides the implementation and experiment pipeline for reproducing the **RAEM+KTO results in the main table**.
 
 RAEM is a rank-aware exponential mechanism for releasing listwise preference
 feedback under local differential privacy. Given ranked candidate responses,
