@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+
+# Downloaded/prepared data and model artifacts
+/data/prepared/
+/models/
+/checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Experiment output
+/outputs/
+/logs/
+/runs/
+/results/
+/nohup_logs/
+nohup.out
+*.log
+
+# Caches and temporary files
+/.cache/
+*.tmp
+*.swp
+.DS_Store
+
+# IDE and scheduler metadata
+.vscode/
+.idea/
+slurm-*.out
